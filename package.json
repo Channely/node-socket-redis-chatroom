@@ -1,0 +1,14 @@
+{
+  "name": "bluemixchat",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.8.7",
+    "jade": "^1.6.0",
+    "redis": "^0.12.1",
+    "socket.io": "^1.1.0"
+  }
+}
