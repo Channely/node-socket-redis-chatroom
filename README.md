@@ -4,7 +4,7 @@
 
 点击查看教程 : [*使用 Node.js、Redis 和 Socket.io 在 Bluemix 上创建 HTML5 聊天应用程序*](https://www.ibm.com/developerworks/cn/web/wa-bluemix-html5chat/)
 
-工程效果演示 : [*Chatools*](https://chatools.herokuapp.com/).
+工程效果演示 : [*Chatools*](https://node-socket-redis-chatroom.herokuapp.com/).
 
 Code for interesting of chat online software.
 
