@@ -10,16 +10,30 @@ Code for interesting of chat online software.
 
 Proudly practiced by [Channely](http://Channely.github.io/).
 
+### Method 1: Use local redis db to build node app local
 
-> 1,clone代码 
+> 0,$ git clone https://github.com/Channely/node-socket-redis-chatroom.git
 
-> 2,然后 $ npm install 
+> 1.$ git checkout localredis
 
-> 3,然后安装数据库redis: $ sudo apt-get install redis-server 
+> 2,$ npm install 
 
-> 4,然后启动数据库 $ redis-server
+> 3,$ sudo apt-get install redis-server  #安装数据库redis 
 
-> 4,然后启动启动node服务程序 $ npm start
+> 4,$ redis-server  #然后启动数据库 
+
+> 5,$ npm start  #然后启动node服务程序 
+
+> 6,打开localhost:3000 查看效果
+
+### Method 2: Use cloud redis db to build node app remote
+
+> 0,$ git clone https://github.com/Channely/node-socket-redis-chatroom.git
+
+> 1,$ npm install 
+
+> 2,signup for redislabs.com && create a free redis instance && rewrite server.js line:71 the value of host,port,password by your own content in og this new instance
+
+> 3,$ npm start  #然后启动node服务程序 
 
 > 4,打开localhost:3000 查看效果
-
