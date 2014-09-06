@@ -64,7 +64,9 @@
       credentials = env['redis-2.6'][0]['credentials'];
     } else {
       // On localhost just hardcode the connection details
-      credentials = { "host": "127.0.0.1", "port": 6379 }
+      //credentials = { "host": "127.0.0.1", "port": 6379 }
+      // Use the cloud db on redislabs.com username:Channely
+      credentials = { "host": "pub-redis-11515.us-east-1-2.2.ec2.garantiadata.com", "port": 11515, "password": "1376817594506" }
     }
     // Connect to Redis
     var redisClient = redis.createClient(credentials.port, credentials.host);
